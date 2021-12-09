@@ -196,7 +196,7 @@ class LinkedList[T]() extends MyList[T] with Serializable {
         node = node.next
       } while (node != null)
     }
-    else System.out.println("Нет элементов в массиве")
+    else println("Нет элементов в массиве")
   }
 
   def iterator: util.Iterator[T] = new util.Iterator[T]() {

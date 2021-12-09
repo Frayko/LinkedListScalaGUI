@@ -26,7 +26,7 @@ object Application extends JFXApp3 {
     }
 
     stage = new PrimaryStage {
-      scene = new Scene(600, 800) {
+      scene = new Scene(600, 600) {
         title = "LinkedListScalaGUI"
         fill = White
         root = vbox
